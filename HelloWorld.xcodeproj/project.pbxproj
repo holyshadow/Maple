@@ -141,6 +141,24 @@
 		102C0F6C17BF4D7800C05626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C0F6B17BF4D7800C05626 /* AppDelegate.m */; };
 		102C0F6F17BF4D7800C05626 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C0F6E17BF4D7800C05626 /* HelloWorldLayer.m */; };
 		102C0F7217BF4D7800C05626 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C0F7117BF4D7800C05626 /* IntroLayer.m */; };
+		102C0F7A17BF4F8D00C05626 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C0F7917BF4F8D00C05626 /* MenuScene.m */; };
+		1082AA5E17C143B8008BE463 /* AnimeMaple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1082AA5D17C143B8008BE463 /* AnimeMaple.png */; };
+		1082AA6017C143C8008BE463 /* AnimeMaple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1082AA5F17C143C7008BE463 /* AnimeMaple.plist */; };
+		10BE4BCA17BF581700A17544 /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE4BC917BF581700A17544 /* PlayScene.m */; };
+		10BE4BCE17BF5CBB00A17544 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10BE4BCD17BF5CBB00A17544 /* BG.jpg */; };
+		10BE4BED17BF604300A17544 /* Play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10BE4BEC17BF604300A17544 /* Play.jpg */; };
+		10BE4DA017BF6C0C00A17544 /* Bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE4D9E17BF6C0C00A17544 /* Bear.png */; };
+		10BE4DA217BF6D7300A17544 /* AnimBear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10BE4DA117BF6D7300A17544 /* AnimBear.plist */; };
+		10BE4DA417BF808A00A17544 /* Cubes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10BE4DA317BF808A00A17544 /* Cubes.jpg */; };
+		10D0D37917C22AB50010E9A6 /* AnimYetiStand.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10D0D37817C22AB50010E9A6 /* AnimYetiStand.plist */; };
+		10D0D37B17C22AC10010E9A6 /* AnimYetiStand.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D0D37A17C22AC10010E9A6 /* AnimYetiStand.png */; };
+		10D7102817C32C5E00DF5761 /* yeti.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10D7102617C32C5E00DF5761 /* yeti.plist */; };
+		10D7102917C32C5E00DF5761 /* yeti.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D7102717C32C5E00DF5761 /* yeti.png */; };
+		10EA97E317C2035600A1F38D /* AnimYeti.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EA97E217C2035600A1F38D /* AnimYeti.png */; };
+		10EA97E517C2036100A1F38D /* AnimYeti.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10EA97E417C2036100A1F38D /* AnimYeti.plist */; };
+		10EA97E717C2046C00A1F38D /* bg_ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10EA97E617C2046C00A1F38D /* bg_ice.jpg */; };
+		9336252E17C7278D00296886 /* man.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9336252C17C7278D00296886 /* man.plist */; };
+		9336252F17C7278D00296886 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 9336252D17C7278D00296886 /* man.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +443,26 @@
 		102C0F6E17BF4D7800C05626 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		102C0F7017BF4D7800C05626 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		102C0F7117BF4D7800C05626 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		102C0F7817BF4F8D00C05626 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		102C0F7917BF4F8D00C05626 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		1082AA5D17C143B8008BE463 /* AnimeMaple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AnimeMaple.png; path = Resources/AnimeMaple.png; sourceTree = "<group>"; };
+		1082AA5F17C143C7008BE463 /* AnimeMaple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimeMaple.plist; path = Resources/AnimeMaple.plist; sourceTree = "<group>"; };
+		10BE4BC817BF581700A17544 /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScene.h; sourceTree = "<group>"; };
+		10BE4BC917BF581700A17544 /* PlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScene.m; sourceTree = "<group>"; };
+		10BE4BCD17BF5CBB00A17544 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = Resources/BG.jpg; sourceTree = "<group>"; };
+		10BE4BEC17BF604300A17544 /* Play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Play.jpg; path = Resources/Play.jpg; sourceTree = "<group>"; };
+		10BE4D9E17BF6C0C00A17544 /* Bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bear.png; path = Resources/Bear.png; sourceTree = "<group>"; };
+		10BE4DA117BF6D7300A17544 /* AnimBear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimBear.plist; path = Resources/AnimBear.plist; sourceTree = "<group>"; };
+		10BE4DA317BF808A00A17544 /* Cubes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cubes.jpg; path = Resources/Cubes.jpg; sourceTree = "<group>"; };
+		10D0D37817C22AB50010E9A6 /* AnimYetiStand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimYetiStand.plist; path = Resources/AnimYetiStand.plist; sourceTree = "<group>"; };
+		10D0D37A17C22AC10010E9A6 /* AnimYetiStand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AnimYetiStand.png; path = Resources/AnimYetiStand.png; sourceTree = "<group>"; };
+		10D7102617C32C5E00DF5761 /* yeti.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = yeti.plist; path = Resources/yeti.plist; sourceTree = "<group>"; };
+		10D7102717C32C5E00DF5761 /* yeti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yeti.png; path = Resources/yeti.png; sourceTree = "<group>"; };
+		10EA97E217C2035600A1F38D /* AnimYeti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AnimYeti.png; path = Resources/AnimYeti.png; sourceTree = "<group>"; };
+		10EA97E417C2036100A1F38D /* AnimYeti.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimYeti.plist; path = Resources/AnimYeti.plist; sourceTree = "<group>"; };
+		10EA97E617C2046C00A1F38D /* bg_ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_ice.jpg; path = Resources/bg_ice.jpg; sourceTree = "<group>"; };
+		9336252C17C7278D00296886 /* man.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = man.plist; path = Resources/man.plist; sourceTree = "<group>"; };
+		9336252D17C7278D00296886 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = Resources/man.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +494,7 @@
 				102C0DC317BF4D7600C05626 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		102C0DC317BF4D7600C05626 /* Products */ = {
 			isa = PBXGroup;
@@ -485,6 +524,22 @@
 		102C0DD917BF4D7600C05626 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				9336252C17C7278D00296886 /* man.plist */,
+				9336252D17C7278D00296886 /* man.png */,
+				10D7102617C32C5E00DF5761 /* yeti.plist */,
+				10D7102717C32C5E00DF5761 /* yeti.png */,
+				10D0D37A17C22AC10010E9A6 /* AnimYetiStand.png */,
+				10D0D37817C22AB50010E9A6 /* AnimYetiStand.plist */,
+				10EA97E617C2046C00A1F38D /* bg_ice.jpg */,
+				10EA97E417C2036100A1F38D /* AnimYeti.plist */,
+				10EA97E217C2035600A1F38D /* AnimYeti.png */,
+				1082AA5F17C143C7008BE463 /* AnimeMaple.plist */,
+				1082AA5D17C143B8008BE463 /* AnimeMaple.png */,
+				10BE4DA317BF808A00A17544 /* Cubes.jpg */,
+				10BE4DA117BF6D7300A17544 /* AnimBear.plist */,
+				10BE4D9E17BF6C0C00A17544 /* Bear.png */,
+				10BE4BEC17BF604300A17544 /* Play.jpg */,
+				10BE4BCD17BF5CBB00A17544 /* BG.jpg */,
 				102C0F6A17BF4D7800C05626 /* AppDelegate.h */,
 				102C0F6B17BF4D7800C05626 /* AppDelegate.m */,
 				102C0F6D17BF4D7800C05626 /* HelloWorldLayer.h */,
@@ -494,6 +549,10 @@
 				102C0DDA17BF4D7600C05626 /* Resources */,
 				102C0DF217BF4D7600C05626 /* libs */,
 				102C0F6617BF4D7800C05626 /* Supporting Files */,
+				102C0F7817BF4F8D00C05626 /* MenuScene.h */,
+				102C0F7917BF4F8D00C05626 /* MenuScene.m */,
+				10BE4BC817BF581700A17544 /* PlayScene.h */,
+				10BE4BC917BF581700A17544 /* PlayScene.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -942,6 +1001,22 @@
 				102C0DEE17BF4D7600C05626 /* Icon@2x.png in Resources */,
 				102C0DF117BF4D7600C05626 /* iTunesArtwork in Resources */,
 				102C0F4A17BF4D7800C05626 /* ChangeLog in Resources */,
+				10BE4BCE17BF5CBB00A17544 /* BG.jpg in Resources */,
+				10BE4BED17BF604300A17544 /* Play.jpg in Resources */,
+				10BE4DA017BF6C0C00A17544 /* Bear.png in Resources */,
+				10BE4DA217BF6D7300A17544 /* AnimBear.plist in Resources */,
+				10BE4DA417BF808A00A17544 /* Cubes.jpg in Resources */,
+				1082AA5E17C143B8008BE463 /* AnimeMaple.png in Resources */,
+				1082AA6017C143C8008BE463 /* AnimeMaple.plist in Resources */,
+				10EA97E317C2035600A1F38D /* AnimYeti.png in Resources */,
+				10EA97E517C2036100A1F38D /* AnimYeti.plist in Resources */,
+				10EA97E717C2046C00A1F38D /* bg_ice.jpg in Resources */,
+				10D0D37917C22AB50010E9A6 /* AnimYetiStand.plist in Resources */,
+				10D0D37B17C22AC10010E9A6 /* AnimYetiStand.png in Resources */,
+				10D7102817C32C5E00DF5761 /* yeti.plist in Resources */,
+				10D7102917C32C5E00DF5761 /* yeti.png in Resources */,
+				9336252E17C7278D00296886 /* man.plist in Resources */,
+				9336252F17C7278D00296886 /* man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +1139,8 @@
 				102C0F6C17BF4D7800C05626 /* AppDelegate.m in Sources */,
 				102C0F6F17BF4D7800C05626 /* HelloWorldLayer.m in Sources */,
 				102C0F7217BF4D7800C05626 /* IntroLayer.m in Sources */,
+				102C0F7A17BF4F8D00C05626 /* MenuScene.m in Sources */,
+				10BE4BCA17BF581700A17544 /* PlayScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1126,6 +1203,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1145,6 +1223,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1169,6 +1248,7 @@
 				102C0F7717BF4D7800C05626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
