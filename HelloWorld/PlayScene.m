@@ -172,12 +172,12 @@
 {
     NSTimeInterval currentTime = [NSDate timeIntervalSinceReferenceDate];
     NSTimeInterval diff = currentTime - mLastTapTime;
-    NSLog(@"(%f,%d)", diff,bearMoving);
     mLastTapTime = currentTime;
    
     
     
         CGPoint touchLocation = [self convertTouchToNodeSpace:touch];
+    touchLocation.y = self.man.position.y;
         CGSize screenSize = [[CCDirector sharedDirector] winSize];
         float bearVelocity = screenSize.width / 3.0;
         
@@ -185,7 +185,7 @@
         float distanceToMove = ccpLength(moveDifference);
         float moveDuration = distanceToMove / bearVelocity;
         
-        
+NSLog(@"Man: %f %f touch: %f %f\n",self.man.position.x ,self.man.position.y , touchLocation.x , touchLocation.y);
         if (moveDifference.x < 0) {
             self.man.flipX = NO;
         } else {
@@ -193,14 +193,14 @@
         }
       //  [self.yeti stopAction:self.moveAction];
         [self.man stopAction:self.movemanAction];
-    // NSLog(@"before change action");
+
     
     if(!manMoving){
         NSLog(@"Changed Action");
         [self.man stopAction:self.standmanAction];
         [self.man runAction:self.walkmanAction];
     }
-   // NSLog(@"After change action");
+
     manMoving =YES;
     NSLog(@"\nmove_duration = %f\nx= %f y=%f\n",moveDuration,touchLocation.x,touchLocation.y);
     
